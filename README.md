@@ -7,3 +7,7 @@ This project is a simple cricket game built using HTML, CSS, and JavaScript. It 
 - Usage
 - Contributing
 - License
+## Features
+- Choose between batting, bowling, or wicket-taking actions.
+- Randomized computer choices for a dynamic gameplay experience.
+- Alerts to inform the user about the game outcome.
