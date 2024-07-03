@@ -12,12 +12,11 @@ This project is a simple cricket game built using HTML, CSS, and JavaScript. It 
 - Randomized computer choices for a dynamic gameplay experience.
 - Alerts to inform the user about the game outcome.
 
-## Getting Started
 
-- Clone this repository to your local machine:
-git clone https://github.com/BAT-BALL-WICKET-GAME/cricket-game.git
+## Usage
 
-Open the project folder:
-cd cricket-game
-
-Open index.html in your browser to play the cricket game.
+- Click the “BAT” button to choose batting.
+- Click the “BALL” button to choose bowling.
+- Click the “WICKET” button to choose wicket-taking.
+- The computer will randomly select its action.
+- An alert will display the game outcome.
