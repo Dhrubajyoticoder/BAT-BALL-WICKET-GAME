@@ -1,0 +1,43 @@
+/* cricket.css */
+
+/* Style for the hero section */
+
+.hero {
+  background-color: #f9f9f9;
+  padding: 20px;
+  text-align: center;
+  background-image: url("https://tse4.mm.bing.net/th?id=OIF.HW8eUKEF8%2faZxUc%2f4qT5rw&pid=Api&P=0&h=180");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; /* Set the height to cover the entire viewport */
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style for the game title */
+
+.title h1 {
+  font-size: 50px;
+  color: #fffbfb;
+}
+
+/* Style for the game buttons */
+
+.button-container .btn {
+  background-color: #d9d200;
+  color: #000000;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+  font-size: 50px;
+  border-radius: 50px;
+}
+
+/* Hover effect for buttons */
+
+.button-container .btn:hover {
+  background-color: #b30000;
+  color: azure;
+}
