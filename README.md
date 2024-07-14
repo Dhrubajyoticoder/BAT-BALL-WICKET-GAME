@@ -20,3 +20,9 @@ This project is a simple cricket game built using HTML, CSS, and JavaScript. It 
 - Click the “WICKET” button to choose wicket-taking.
 - The computer will randomly select its action.
 - An alert will display the game outcome.
+  
+# cricket
+Upload video for showing example 
+
+https://github.com/user-attachments/assets/1eb3a5dd-2c87-47e0-88e2-6a45088d8592
+
