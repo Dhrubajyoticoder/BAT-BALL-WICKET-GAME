@@ -1,0 +1,81 @@
+/* cricket.css */
+
+/* Style for the hero section */
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tv-box {
+  /* Other styles remain the same */
+  margin: 0 auto;
+}
+
+.hero {
+  background-color: #f9f9f9;
+  padding: 20px;
+  text-align: center;
+  /* background-image: url("https://tse1.mm.bing.net/th?id=OIP.e2P3ReDBMC5G87UnoHrt3wAAAA&pid=Api&P=0&h=180"); */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; /* Set the height to cover the entire viewport */
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style for the game title */
+
+.title h1 {
+  font-size: 50px;
+  color:rgb(163, 19, 36);
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0);
+}
+
+/* Style for the game buttons */
+
+.button-container .btn {
+  background-color:transparent; /* Set your desired background color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button-container .btn.choice-img,
+.choice-img2,
+.choice-img3 {
+    mix-blend-mode: multiply; /* This will remove the whiter parts of the image */
+}
+
+/* Hover effect for buttons */
+
+.button-container .btn:hover {
+  background-color: #ffffff;
+  color: azure;
+}
+.tv-box {
+  width: 550px; /* Adjust the size as needed */
+  height: 280px;
+  background-color: #222; /* Dark background for the TV frame */
+  border-radius: 10px; /* Rounded corners */
+  overflow: hidden; /* Hide anything outside the frame */
+  position: relative; /* To position the screen inside */
+   /* Center vertically */
+
+}
+
+.tv-screen {
+  background-color: #000; /* Black screen background */
+  color: #00ff00; /* Green text (because old-school) */
+  padding: 20px;
+  font-size: 18px;
+  text-align: center;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  border: 2px solid #00ff00; /* Green border around the screen */
+  border-radius: 5px;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="cricket.css" />
+    <title>CRICKET GAME</title>
+  </head>
+  <body>
+    <div class="hero">
+      <div class="title"><h1>CRICKET GAME</h1></div>
+
+  
+
+      <div class="button-container">
+        <button class="btn" onclick="handleBatChoice()"><img src="https://tse4.mm.bing.net/th?id=OIP.bxW6j5CPbFUTAyJA0sclaQHaHa&pid=Api&P=0&h=180" alt="Bat img" class="choice-img"></button>
+
+        <button class="btn" onclick="handleBallChoice()"><img src="https://tse1.explicit.bing.net/th?id=OIP.2PRcjV1kcV-rhILviZ3C6QHaHc&pid=Api&P=0&h=180" alt="Ball img" class="choice-img2"></button>
+
+        <button class="btn" onclick="handleWicketChoice()"><img src="https://tse2.mm.bing.net/th?id=OIP.7f_4LSmMEkeh5KSMgGWvxQHaKM&pid=Api&P=0&h=180" alt="Wicket img" class="choice-img3"></button>
+
+        <button class="btn" onclick="resetChoice()"><img src="https://tse2.mm.bing.net/th?id=OIP.larE8EbDLUKgO4CceqX0EgHaHa&pid=Api&P=0&h=180" alt="reset img" clss="choice-img4"></button>
+      </div>
+      <div class="tv-box">
+      <div class="tv-screen">
+      <h3 id="user-move"></h3>
+      <h3 id="computer-move"></h3>
+      <h3 id="result"></h3>
+      <h3 id="score"></h3>
+      </div>
+      </div>
+    </div>
+    <script src="cricket.js"></script>
+  </body>
+</html>
